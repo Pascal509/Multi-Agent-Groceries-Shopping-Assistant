@@ -1,11 +1,53 @@
-item,quantity
-apple,20
-banana,15
-milk,10
-bread,5
-mango,50
-tomato,5
-egg,200
-beef,36
-ginger,4
-garlic,17
+category,item,quantity,price
+Foodstuff,Apple,50,1.50
+Foodstuff,Banana,40,2.00
+Foodstuff,Milk,30,3.00
+Foodstuff,Bread,60,2.50
+Foodstuff,Mango,25,2.20
+Foodstuff,Tomato,100,0.80
+Foodstuff,Egg,500,0.20
+Foodstuff,Beef,40,5.00
+Foodstuff,Ginger,20,1.00
+Foodstuff,Garlic,30,1.20
+Foodstuff,Rice (5kg),100,12.00
+Foodstuff,Spaghetti,200,1.10
+Foodstuff,Onion,80,0.60
+Foodstuff,Potato,70,0.90
+Foodstuff,Carrot,60,0.70
+Foodstuff,Chickens,35,7.00
+Foodstuff,Turkey,20,12.00
+Foodstuff,Cheese,25,4.00
+Foodstuff,Butter,30,2.80
+Foodstuff,Orange,40,1.30
+Foodstuff,Pineapple,20,2.50
+Foodstuff,Watermelon,15,3.00
+Foodstuff,Peanut Butter,40,3.50
+Foodstuff,Jam,35,2.20
+Foodstuff,Flour (1kg),60,1.50
+Foodstuff,Sugar (1kg),80,1.10
+Foodstuff,Salt (1kg),100,0.50
+Foodstuff,Vegetable Oil (1L),50,3.20
+Foodstuff,Groundnut Oil (1L),40,3.50
+Foodstuff,Beans (1kg),70,2.00
+Foodstuff,Yam,30,2.80
+Foodstuff,Plantain,25,2.10
+Foodstuff,Avocado,20,1.80
+Foodstuff,Apple Juice,30,2.00
+Foodstuff,Orange Juice,30,2.00
+Foodstuff,Soft Drink,100,1.00
+Foodstuff,Bottled Water,200,0.50
+Foodstuff,Tea,60,1.20
+Foodstuff,Coffee,40,2.50
+Foodstuff,Cereal,50,3.00
+Foodstuff,Chocolate,40,2.20
+Foodstuff,Ice Cream,30,2.80
+Foodstuff,Popcorn,60,1.00
+Foodstuff,Snacks,100,0.80
+Foodstuff,Granola Bar,40,1.50
+Foodstuff,Energy Drink,30,2.00
+Foodstuff,Red Wine,20,10.00
+Foodstuff,White Wine,20,10.00
+Foodstuff,Beer,60,2.00
+Foodstuff,Champagne,10,25.00
+Foodstuff,Whiskey,10,30.00
+Foodstuff,Spirit,10,20.00
