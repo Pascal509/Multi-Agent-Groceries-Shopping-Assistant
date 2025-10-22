@@ -1,6 +1,6 @@
 streamlit
 langchain
 google-generativeai
-langchain_google_genai
 tavily-python
-pandas
+python-dotenv
+openai
