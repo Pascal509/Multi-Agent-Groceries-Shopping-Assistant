@@ -1,3 +1,6 @@
+langchain-core
+pydantic
+langchain-google-genai
 streamlit
 langchain
 langchain-google-genai
