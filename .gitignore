@@ -1,3 +1,5 @@
+# Streamlit secrets
+25/.streamlit/secrets.toml
 # Ignore API key files
 25/api_key.py
 25/api-key.py
