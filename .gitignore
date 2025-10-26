@@ -1,8 +1,5 @@
 # Streamlit secrets
 25/.streamlit/secrets.toml
-# Ignore API key files
-25/api_key.py
-25/api-key.py
 # Python
 __pycache__/
 *.pyc
@@ -15,8 +12,6 @@ venv/
 .ipynb_checkpoints/
 
 # Sensitive files
-25/api-key.py
-api_key.py
 *.env
 logs.json
 
