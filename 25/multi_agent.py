@@ -105,10 +105,18 @@ inventory_tool = Tool(
 )
 
 search_tool = TavilySearchResults(max_results=3)
+
+def nutrition_info_with_fallback(query):
+    result = search_tool.run(f"Nutritional information of {query}")
+    # If result is empty, None, or just 'OK', provide a fallback
+    if not result or str(result).strip().upper() == "OK":
+        return f"No nutrition information found for '{query}'. Please check the item name or try another item."
+    return result
+
 nutrition_tool = Tool(
     name="Nutrition Info",
-    func=lambda query: search_tool.run(f"Nutritional information of {query}"),
-    description="Searches for nutrition facts of a given item."
+    func=nutrition_info_with_fallback,
+    description="Searches for nutrition facts of a given item. Always returns relevant info or a clear fallback message."
 )
 
 conversation_agent = initialize_agent(
